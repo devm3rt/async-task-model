@@ -1,8 +1,8 @@
 export type AsyncTaskModel<R = any, E = any> = {
-  isInit?: boolean;
-  isLoading?: boolean;
-  result?: R;
-  error?: E;
-  lastRequestDate?: Date;
-  lastResponseDate?: Date;
+  isInit?: boolean; // Indicates whether the task is ever initialized
+  isLoading?: boolean; // Indicates whether the task is currently loading
+  result?: R; // Holds the result of the asynchronous task
+  error?: E; // Holds any error encountered during the task
+  lastRequestDate?: Date; // Timestamp for the last request date
+  lastResponseDate?: Date; // Timestamp for the last response date
 };
