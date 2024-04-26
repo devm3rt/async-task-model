@@ -1,8 +1,8 @@
 # AsyncTaskModel TypeScript Module
 
-![npm](https://img.shields.io/npm/v/asynctask-model)
+<!-- ![npm](https://img.shields.io/npm/v/asynctask-model)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/asynctask-model)
-![GitHub](https://img.shields.io/github/license/yourusername/asynctask-model)
+![GitHub](https://img.shields.io/github/license/yourusername/asynctask-model) -->
 
 This TypeScript module provides the `AsyncTaskModel` type for representing asynchronous task states.
 
@@ -29,10 +29,10 @@ import { AsyncTaskModel } from 'asynctask-model';
 const task: AsyncTaskModel<number, string> = {
   isInit: true,
   isLoading: false,
-  result: 42,
+  result: { data: [1, 2, 3] },
   error: undefined,
   lastRequestDate: new Date(),
-  lastResponseDate: new Date(),
+  // lastResponseDate: 'define when you get response',
 };
 ```
 
@@ -51,6 +51,6 @@ Represents the state of an asynchronous task.
 - `lastRequestDate?: Date`: Timestamp for the last request date. Default: `undefined`.
 - `lastResponseDate?: Date`: Timestamp for the last response date. Default: `undefined`.
 
-## License
+<!-- ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. -->
