@@ -5,7 +5,7 @@ node_modules/
 *.js
 
 # Ignore compiled TypeScript declaration files
-*.d.ts
+# *.d.ts
 
 # Ignore npm-debug.log
 npm-debug.log
