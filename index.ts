@@ -1,3 +1,10 @@
+export type MyModel = {
+  ads: string;
+};
+
+export const MyFunc = (asd: string) => {
+  return 'asd';
+};
 export type AsyncTaskModel<R = any, E = any> = {
   isInit?: boolean; // Indicates whether the task is ever initialized
   isLoading?: boolean; // Indicates whether the task is currently loading
